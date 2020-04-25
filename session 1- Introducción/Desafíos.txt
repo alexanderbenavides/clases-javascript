@@ -1,0 +1,28 @@
+1.- Imprimir en consola "Bienvenidos al curso de JavaScript desde Cero"
+2.- Cree una funcion que se llame performOperation que reciba tres entradas 
+(secondInteger, secondDecimal, secondString)
+dentro de la function cree 3 constantes(firstInteger,firstDecimal,firstString) y asignelo  
+un valor a cada uno. Después imprima a consola los valores concatenados. del mismo tipo 
+Finalmente llame a la funcion pasándole 3 parámetros con los valores correspondientes y observe que pasa.
+
+3.- Defina dos funciones llamadas getArea y getPerimeter que tengan ambos dos entradas length y width
+devuelva el perímetro y el área de cada uno de ellos.
+área = base x altura
+perímetro = 2 (base+ altura)
+
+4.- Una empresa lo ha contratado y como primer reto lo dejó a ud que limpie la siguiente data
+employees = "polo 10 blanco, camisa 12 rojo, blusa 13 morado, polo 13 rojo, blusa 13 blanca"
+que es una cadena que tiene información separada por comas que representa tiene como valor 
+la prenda que vendió la empresa, el precio y el color.
+Lo que debe hacer es imprimir de manera indiviudal cada uno de los valores con el siguiente mensaje
+"Se vendieron x polos de color y a z soles"
+Cree una función si es necesario
+
+5.- Cree una función llamada getGrade . Tiene un parámetro: un número entero, 
+que denota la cantidad de puntos que un alumno obtuvo en un examen. Debe devolver 
+la carta correspondiente a ella de acuerdo con las siguientes reglas:
+
+de 0 a 10 : No logrado
+de 11 a 13: Incipiente
+de 14 a 17: logrado
+de 18 a 20: Sobresaliente

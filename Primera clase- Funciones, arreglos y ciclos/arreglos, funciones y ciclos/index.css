@@ -1,0 +1,28 @@
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  width: 40%;
+  margin: 2rem auto;
+  gap: 1rem;
+}
+
+#buttons div {
+  padding: 2rem 0;
+  background-color: rgb(93, 93, 241);
+}
+
+#buttons div span:first-of-type {
+  color: red;
+}
+
+#buttons div span:not(:first-of-type) {
+  color: white;
+}
+
+#btn55 {
+  cursor: pointer;
+}
+#btn55 span {
+  color: white !important;
+}
