@@ -1,0 +1,23 @@
+#modulesContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+#modulesContainer .modules {
+  display: grid;
+  border: 1px solid rgb(196, 196, 226);
+  padding: 1rem;
+  position: relative;
+}
+#modulesContainer .modules span:first-of-type {
+  text-align: center;
+}
+
+.btn-remove {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
